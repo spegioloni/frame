@@ -2,6 +2,6 @@
 layout: home
 ---
 
-# Bienvenide
+# Wir bauen deine Website.
 
-Hoola carepalo
+Schnell, sicher und zuverlässig auf Basis von HTML, CSS und Javascript.
