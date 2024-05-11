@@ -1,11 +1,11 @@
 domain: example.com
 url: https://example.com
 
-title: Wind
+title: frame webdesign
 email: wind@example.com
-author: Wind Sample
+author: Tim Möbus
 
-lang: en
+lang: de
 
 plugins:
   - jekyll-seo-tag
