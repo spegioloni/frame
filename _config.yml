@@ -1,5 +1,6 @@
-domain: example.com
-url: https://example.com
+domain: spegioloni.github.io
+url: https://spegioloni.github.io
+baseurl: /frame
 
 title: frame
 email: wind@example.com
