@@ -2,6 +2,8 @@
 ---
 
 $primary_color: {{ site.color | default: "#a505f0" }};
+$gradient_start: #8027C6;
+$gradient_end: #FB0281;
 
 .share-button {
    background-color: $primary_color;
@@ -12,7 +14,27 @@ $primary_color: {{ site.color | default: "#a505f0" }};
     }
 }
 
-h1 {
-   text-decoration-color: $primary_color;
-   text-decoration-line: underline;
+body{
+   font-family: Quicksand system-ui, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: LeagueSpartan, system-ui, sans-serif;
+  text-transform: uppercase;
+}
+
+#customlogo{
+   font-family: LeagueSpartan, system-ui, sans-serif;
+   font-weight: bold;
+}
+
+.customgradient{
+   background: -webkit-linear-gradient($gradient_start, $gradient_end);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
