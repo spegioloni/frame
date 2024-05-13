@@ -34,7 +34,7 @@ h6 {
 }
 
 .customgradient{
-   background: -webkit-linear-gradient($gradient_start, $gradient_end);
+   background: -webkit-linear-gradient(to right, $gradient_start, $gradient_end);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
